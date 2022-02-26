@@ -7,4 +7,7 @@ const {app, BrowserWindow} = electron;
 let mainWindow;
 
 // Listen for app to be ready
-app.on("ready", fun);
+app.on("ready", function(){
+    // Create new Window
+    
+});
