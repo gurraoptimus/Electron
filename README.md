@@ -90,6 +90,8 @@ Distributed under the GNU General Public License v3.0. See `LICENSE` for more in
 
 [license-shield]: https://img.shields.io/github/license/gurraoptimus/Electron.svg?style=flat-square
 [license-url]: https://github.com/gurraoptimus/Electron/blob/main/LICENSE
-[appveyor-shield]: https://img.shields.io/appveyor/build/
-[appveyor-url]: https://ci.appveyor.com/project/
+[appveyor-shield]: https://img.shields.io/appveyor/build/gurraoptimus/Electron
+[appveyor-url]: https://ci.appveyor.com/project/gurraoptimus/electron
+
+
 
