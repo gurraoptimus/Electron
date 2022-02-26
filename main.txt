@@ -16,7 +16,15 @@ app.on("ready", function(){
     protocol:"file:",
     slashes: true
     }));
+    
+    // Build menu from template
+    const mainMenu = Menu.BuildFromtemplate();
+    // 
 });
 
 // Create menu template
-const mainMenuTemplate = []
+const mainMenuTemplate = [
+ {  
+     label:"File"
+ }
+];
