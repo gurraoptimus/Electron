@@ -34,6 +34,7 @@ const mainMenuTemplate = [
             label:"Clear Items"
         },{
             label:"Quit",
+            accelerator: p
             click(){
                 app.quit();
             }
