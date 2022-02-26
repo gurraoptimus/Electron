@@ -19,12 +19,25 @@ app.on("ready", function(){
     
     // Build menu from template
     const mainMenu = Menu.BuildFromtemplate();
-    // 
+    // insert menu
+    menu.setApplicationMenu(mainMenu);
 });
 
 // Create menu template
 const mainMenuTemplate = [
  {  
-     label:"File"
+     label:"File",
+     submenu:[
+         {label: "Add Item"
+        },
+        {
+            label:"Clear Items"
+        },{
+            label:"Quit",
+            click(){
+                app.quit();
+            }
+        }
+     ]
  }
 ];
