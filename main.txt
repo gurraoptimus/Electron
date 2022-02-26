@@ -23,18 +23,24 @@ app.on("ready", function(){
     menu.setApplicationMenu(mainMenu);
 });
 
+// H
+
 // Create menu template
 const mainMenuTemplate = [
  {  
      label:"File",
      submenu:[
-         {label: "Add Item"
+         {label: "Add Item",
+         click(){
+             crateAddWindow();
+         }
         },
         {
             label:"Clear Items"
         },{
             label:"Quit",
-            accelerator: p
+            accelerator: process.platform == "darwin" ? "Command+Q" :
+            "Ctrl+Q",
             click(){
                 app.quit();
             }
