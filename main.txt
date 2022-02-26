@@ -11,5 +11,12 @@ app.on("ready", function(){
     // Create new Window
     mainWindow = new BrowserWindow();
     // load html into window
-    
+    mainWindow.loadURL(url.format({
+    pathname: path.join(_dirname, "mainWindow.html"),
+    protocol:"file:",
+    slashes: true
+    }));
 });
+
+// Create menu template
+const mainMenuTemplate = []
