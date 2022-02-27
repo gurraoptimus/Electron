@@ -29,22 +29,21 @@
 
 
 ## Installation
-
-
-
+Build an Electron App in Under 60 Minutes.
 ### Setup Instructions (click)
 
 [![Build an Electron App in Under 60 Minutes.](https://i.ytimg.com/vi/kN1Czs0m1SU/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDBoMrwt6kqnnQqtZS6RaJvTmFPmw)](https://www.youtube.com/watch?v=kN1Czs0m1SU "Build an Electron App in Under 60 Minutes.")
 
-### Prerequisites
+## Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
 
+[Node.js](https://nodejs.org/en/download/)
 ```sh
 npm init
 ```
 
-### Setup
+## Setup
 
 1. Clone the repo
 ```sh
@@ -55,7 +54,8 @@ cd Electron
 ```sh
 npm install --save electron
 ```
-3. Run the project
+## Serve
+3. Run electron
 ```JS
 npm start
 ```
@@ -64,11 +64,26 @@ npm start
 npm install --save-dev electron-packager
 ```
 
-5. Shortcuts
+5. ## Shortcuts
 ```sh
- "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=assets/icons/mac/icon.icns --prune=true --out=release-builds",
-    "package-win": "electron-packager . --overwrite --asar=true --platform=win32 --arch=ia32 --icon=assets/icons/win/icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Electron app\"",
+  "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=assets/icons/mac/icon.icns --prune=true --out=release-builds",
+  "package-win": "electron-packager . --overwrite --asar=true --platform=win32 --arch=ia32 --icon=assets/icons/win/icon.ico --prune=true --out=release-builds --version-string.  CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"electron\"",
     "package-linux" : "electron-packager . --overwrite --platform=linux --arch=x64 --icon=assets/icons/png/icon.png --prune=true --out=release-builds"
+```
+
+## To Package & Build
+
+  For Windows
+```sh
+$ npm run package-win
+```
+For macOS
+```sh
+$ npm run package-mac
+```
+For Linux
+```sh
+$ npm run package-linux
 ```
 
 <!-- CONTRIBUTING -->
