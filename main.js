@@ -59,6 +59,7 @@ ipcMain.on('item:add', function(e, item){
 
 // Create menu template
 const mainMenuTemplate =  [
+  {file}, 
   // Each object is a dropdown
   {
     label: 'File',
