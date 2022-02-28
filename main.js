@@ -54,7 +54,7 @@ ipcMain.on('item:add', function(e, item){
   mainWindow.webContents.send('item:add', item);
   addWindow.close(); 
   // Still have a reference to addWindow in memory. Need to reclaim memory (Grabage collection)
-  //addWindow = null;
+    //addWindow = null;
 });
 
 // Create menu template
@@ -89,7 +89,7 @@ const mainMenuTemplate =  [
 
 // If OSX, add empty object to menu
 if(process.platform == 'darwin'){
-  mainMenuTemplate.unshift({});
+  mainMenuTemplate.unshift({label: app.getName()});
 }
 
 // Add developer tools option if in dev
