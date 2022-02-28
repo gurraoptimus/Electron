@@ -24,6 +24,7 @@
 * [Installation](#installation)
   * [Prerequisites](#prerequisites)
   * [Setup](#setup)
+  * [Uninstall npm](#how-to-uninstall-npm-electron)
 * [Contributing](#contributing)
 * [License](#license)
 
@@ -85,7 +86,16 @@ For Linux
 ```sh
 $ npm run package-linux
 ```
+## how to Uninstall npm electron
 
+6. UnInstall NPM electron packages
+```sh
+npm uninstall electron-npm --save
+```
+7. UnInstall NPM electron packager
+```sh
+npm uninstall electron-packager-npm --save-dev
+```
 <!-- CONTRIBUTING -->
 ## Contributing
 
