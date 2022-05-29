@@ -55,7 +55,7 @@ cd Electron
 ```sh
 npm install --save electron
 ```
-## Serve
+## Run app
 3. Run electron
 ```JS
 npm start
