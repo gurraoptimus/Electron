@@ -33,7 +33,7 @@
 Build an Electron App in Under 60 Minutes.
 ### Setup Instructions (click)
 
-[![Build an Electron App in Under 60 Minutes.](https://i.ytimg.com/vi/kN1Czs0m1SU/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDBoMrwt6kqnnQqtZS6RaJvTmFPmw)](https://www.youtube.com/watch?v=kN1Czs0m1SU "Build an Electron App in Under 60 Minutes.")
+[![Build an Electron App in Under 60 Minutes.](https://i.ytimg.com/vi/2RxHQoiDctI/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDBoMrwt6kqnnQqtZS6RaJvTmFPmw)](https://youtu.be/2RxHQoiDctI "Build an Electron App in Under 60 Minutes.")
 
 ## Prerequisites
 
