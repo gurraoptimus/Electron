@@ -40,6 +40,7 @@ Build an Electron App in Under 60 Minutes.
 This is an example of how to list things you need to use the software and how to install them.
 
 [Node.js](https://nodejs.org/en/download/)
+[git bash](https://git-scm.com/downloads)
 ```sh
 npm init
 ```
@@ -77,15 +78,15 @@ npm install --save-dev electron-packager
 
   For Windows
 ```sh
-$ npm run package-win
+npm run package-win
 ```
 For macOS
 ```sh
-$ npm run package-mac
+npm run package-mac
 ```
 For Linux
 ```sh
-$ npm run package-linux
+npm run package-linux
 ```
 ## how to Uninstall npm electron
 
